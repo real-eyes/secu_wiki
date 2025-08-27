@@ -1,17 +1,21 @@
-# Welcome to MkDocs
+# INDEX
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## 목적
+현대의 정보보안은 매우 복잡합니다. 특히 대한민국의 정보보안은 폐쇄성을 가지고 있습니다.
 
-## Commands
+여러 침해사고를 공유하는 해외의 정보보안의 수준은 높아만지고 일반적인 정보보안 인력의 수준은 그 격차를 따라잡는 것은 매우 힘들다고 생각합니다.
+시장 파이도 작고 신고율이 낮은 우리는 대체 무엇을 참고를 하고 그것을 어떻게 써먹어야 할까요?
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+이 페이지를 만든 사람은 레드팀(컨설팅) 출신이 아니기 때문에 그들에 대한 방법론은 알 수 없으나, 
+최소한 방어자의 입장에서 어떤 문서를 보면 좋을지 차근차근 업데이트를 가지는게 목적입니다.
 
-## Project layout
+기회가 된다면 초급자 입장에서 이런 추상적인 문서를 어떻게 적용할지 좋을지 알려주고자 만들었습니다.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## 영감을 받은 사이트
+- [SIEM Use Cases](https://www.siemusecases.com/): https://www.siemusecases.com/
+
+## 구축 베이스
+- [Material for MKDocs](https://squidfunk.github.io/mkdocs-material/): https://squidfunk.github.io/mkdocs-material/
+
+## 볼게 없어요!
+- 나름 신중해야 하고 현업이 바쁜지라 어느 정도 틀 완성은 설날 이전에 될 것으로 보입니다. 그 이전에는 해당 페이지에 내용이 없을 것으로 보입니다.

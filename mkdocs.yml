@@ -1,4 +1,36 @@
-site_name: Cybersecurity Storage
+site_name: Realeyes Security Wiki
 site_url: https://real-eyes.github.io/secu_wiki/
 theme:
   name: material
+  features:
+    # 상단 탭 활성화
+    - navigation.tabs
+    # 상단 탭 고정
+    - navigation.tabs.sticky
+    # 좌측 대 > 중분류(문서)
+    - navigation.expand
+    # 네비게이션 통합 기능
+    - toc.integrate
+  # 자동 라이트/다크모드
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  logo: assets/logo.png
+  favicon: assets/logo.png
