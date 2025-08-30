@@ -1,4 +1,4 @@
-site_name: Realeyes Security Wiki
+site_name: Realeyes SOC Wiki
 site_url: https://real-eyes.github.io/secu_wiki/
 theme:
   name: material
@@ -9,8 +9,8 @@ theme:
     - navigation.tabs.sticky
     # 좌측 대 > 중분류(문서)
     - navigation.expand
-    # 네비게이션 통합 기능
-    - toc.integrate
+    # 네비게이션 통합 기능, 우측 분류
+    # - toc.integrate
   # 자동 라이트/다크모드
   palette:
     # Palette toggle for automatic mode
