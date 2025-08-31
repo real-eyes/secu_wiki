@@ -17,11 +17,12 @@
 
 위의 프레임워크의 관계는 아래와 같습니다.
 
-![alt text](image.png)
+![cpe에서 att&ck의 관계1](../images/mitre_framework_relation1.png)
+
 
 출처: https://www.nopsec.com/blog/mapping-cves-and-attck-framework-ttps-an-empirical-approach/
 
-![alt text](image-1.png)
+![cpe에서 att&ck의 관계2](../images/mitre_framework_relation2.png)
 
 출처: https://www.mdpi.com/1424-8220/21/22/7579
 
