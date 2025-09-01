@@ -11,6 +11,7 @@ theme:
     - navigation.expand
     # 네비게이션 통합 기능, 우측 분류
     # - toc.integrate
+    
   # 자동 라이트/다크모드
   palette:
     # Palette toggle for automatic mode
@@ -32,5 +33,12 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+
   logo: assets/logo.png
   favicon: assets/logo.png
+
+markdown_extensions:
+  # Content Tab
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
