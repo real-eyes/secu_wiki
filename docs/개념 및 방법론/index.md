@@ -52,6 +52,16 @@
     - AppSec에 대한 내용이다.
     - https://app-attack-matrix.com/
 
+#### 인공지능(Artificial Intelligence) 보안
+2025년 기준, AI 보안은 Application 형태로 제공되기 때문에 Application 보안의 하위 개념으로 보고 있다.
+
+- [**OWASP Top 10 for Large Language Model Applications**](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+    - LLM 기반 어플리케이션의 취약점을 다루는 프레임워크
+- [MITRE ATLAS](https://atlas.mitre.org/)
+    - ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems)는 AI 기반 시스템에 대한 적대적 전술과 기술을 다루는 프레임워크다.
+- [NIST AI RMF(Risk Management Framework)](https://www.nist.gov/itl/ai-risk-management-framework)
+    - NIST에서 제공하는 AI 관리 프레임워크
+
 ### Threat Modeling (위협 모델링)
 - [**Microsoft, STRIDE**](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats)
     - Microsoft에서 보안 위협을 식별하기 위한 모델, 1999년에 나온 개념이다.([Wikipedia](https://en.wikipedia.org/wiki/STRIDE_model))
@@ -59,4 +69,39 @@
     - 록히드 마틴(Lockheed Martin)에서 기존 STRIDE는 소프트웨어 공학/개발을 초점으로 두었기 때문에 Lateral Movement(내부 확산)을 추가한 위협 모델링이다.
     - 활용사례
         - [CSF, STRIDE-LM Threat Model](https://csf.tools/reference/stride-lm/)
+- [Attack Tree](https://www.schneier.com/academic/archives/1999/12/attack_trees.html)
+    - 1999년에 Bruce Schneier가 만든 이론으로 자산 또는 대상이 어떻게 공격받을 수 있는지를 보여주는 개념적 다이어그램
 
+
+### 보안 통제 프레임워크
+- [**NIST CSF(Cybersecurity Framework)**](https://www.nist.gov/cyberframework)
+    - 보안 위험에 초점을 둔 프레임워크
+    - 핵심기능: Govern(관리), Identify(식별), Protect(보호), Detect(탐지), Respond(대응), Recover(복구)
+    - Tier(성숙도 단계): 
+        1. Partial(부분 적용)
+        2. Risk Informed(위험정보 활용)
+        3. Repeatable(위험정보 활용/반복)
+        4. Adaptive(적응)
+    - 참고문서
+        - [[KISA Insight 2024 Vol.06] 미국 NIST 사이버보안 프레임워크 2.0(Cybersecurity Framework 2.0) 주요 내용과 시사점](https://www.kisa.or.kr/20301/form?postSeq=28&lang_type=KO)
+
+## 인증 제도
+- [ISO/IEC 27001](https://www.iso.org/standard/27001)
+    - information security management system (ISMS)에 대한 국제 표준 [(Wikipedia)](https://en.wikipedia.org/wiki/ISO/IEC_27001)
+    - 구성(단원, Unit)의 경우 아래와 같다. 번역은 [한국표준협회(KSA)](https://ksa.or.kr/ksa_kr/7011/subview.do)를 따른다.
+        - Context of the organization (조직상황)
+        - Leadership (리더십)
+        - Planning (계획)
+        - Support (지원)
+        - Operation (운용)
+        - Performance evaluation (성과 평가)
+        - Improvement (개선)
+        - 부록
+- [ISMS-P](https://isms.kisa.or.kr/main/ispims/intro/)
+    - 정보보호 및 개인정보보호를 위한 일련의 조치와 활동이 인증기준에 적합함을 인터넷진흥원 또는 인증기관이 증명하는 제도
+    - 인증 체계
+        1. 관리체계 수립 및 운영 (16개)
+        2. 보호대책 요구사항 (64개)
+        3. 개인정보 처리단계별 요구사항 (21개)
+- SOC 2 (System and Organization Controls 2) Type ii
+- PCI DSS (Payment Card Industry Data Security Standard)

@@ -1,4 +1,3 @@
-# 일단 저장하고 본 것들
 
-
+## 일단 편입
 - DDoSecrets Public Data Server: https://data.ddosecrets.com/
