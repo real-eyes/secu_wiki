@@ -19,4 +19,4 @@
 
 
 ## 자료실
-- [국가사이버안보센터(NCSC) 자료실](menuNo=070000&subMenuNo=070300&thirdMenuNo=&link=forward%3A%2Fcop%2Fbbs%2FselectBoardList.do%3FbbsId%3DInstructionGuide_main)
+* [국가사이버안보센터(NCSC) 자료실](https://www.ncsc.go.kr:4018/PageLink.do?menuNo=070000&subMenuNo=070300&thirdMenuNo=&link=forward%3A%2Fcop%2Fbbs%2FselectBoardList.do%3FbbsId%3DInstructionGuide_main)

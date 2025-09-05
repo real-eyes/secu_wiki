@@ -9,6 +9,10 @@
 * [AttackRuleMap](https://attackrulemap.netlify.app/): MITRE Atomic Attack에 해당되는 Sigma Rule과 Splunk(SPL) 룰셋을 매핑
 * [DDoSecrets Public Data Server](https://data.ddosecrets.com/): 해킹 및 유출 문서 보관 공개
 * [Ransomware.live](https://www.ransomware.live/): 랜섬웨어 유출 정보 확인
+* [Lazarusholic](https://lazarus.day/actors/): 북한 APT 그룹 리포트 모음
 
 ## 취약점 테스트 환경
 * [Nuclei-Templates-Labs](https://github.com/projectdiscovery/nuclei-templates-labs)
+
+## 기술팁
+* [Building a Windows AD lab](https://ad-lab.gitbook.io/building-a-windows-ad-lab): Windows AD 서버 구축팁
